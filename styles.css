@@ -3,13 +3,11 @@ body{
     margin: 0;
     padding: 0;
     background-color: #fff;
-}
-
-section{
     height: 100vh;
     width: 100vw;
-    display: flex;
 }
+
+
 
 p{
     color: grey ;
@@ -33,6 +31,10 @@ article{
     margin-top: 20px;
 }
 
+h4{
+    color: #407ce8;
+}
+
 .logo{
     height: 100px;
     width: 100px;
@@ -41,6 +43,8 @@ article{
 .section-a{
     background-color: #f7f7f7;
     padding: 50px 500px;
+    display: flex;
+    flex-direction: column;
 }
 
 .header-a{
@@ -58,6 +62,8 @@ article{
 
 .Sbtn{
     border: none;
+    font-size: 20px;
+    background-color: #f7f7f7;
 }
 
 .article-a{
@@ -114,4 +120,35 @@ article{
 
 .section-b{
     margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.title-blue{
+    color: #fff;
+    padding: 2px 3px;
+    background-color: #00b0f4;
+    border-radius: 3px;
+    display: flex;
+    text-align: center;
+}
+
+.slider{
+    display: flex;
+}
+
+.slide{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.medee-fire{
+    background-color: #fdfaf5;
 }
