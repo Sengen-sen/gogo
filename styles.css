@@ -3,8 +3,12 @@ body{
     margin: 0;
     padding: 0;
     background-color: #fff;
+}
+
+section{
     height: 100vh;
     width: 100vw;
+    display: flex;
 }
 
 p{
@@ -15,22 +19,34 @@ img{
     border-radius: 5px;
 }
 
-section{
-    background-color: #f7f7f7;
-    padding: 50px 500px;
-}
-
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
+nav{
+    margin-top: 20px;
+}
+
+article{
+    margin-top: 20px;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+}
+
+.section-a{
+    background-color: #f7f7f7;
+    padding: 50px 500px;
+}
+
 .header-a{
     display: flex;
     flex-direction: row;
-    gap: 20px;
-    
+    gap: 20px; 
 }
 
 .header-b{
@@ -38,6 +54,10 @@ header{
     flex-direction: row;
     justify-content: center;
     gap: 10px;
+}
+
+.Sbtn{
+    border: none;
 }
 
 .article-a{
@@ -57,7 +77,8 @@ header{
     height: 25px;
     width: 200px;
     border: none;
-    border-radius: 5px;
+    border-radius: 30px;
+    color: white;
 }
 
 .btn{
@@ -76,4 +97,21 @@ header{
     width: 50px;
     height: 30px;
     gap: 5px;
+}
+
+.article-cards{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    height: 175px;
+}
+
+.section-b{
+    margin-top: 30px;
 }
