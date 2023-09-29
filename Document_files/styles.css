@@ -135,58 +135,59 @@ aside{
     margin-left: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center; 
 }
 
 .title{
     margin-top: 30px;
     display: flex;
-    width: 1000px;
 }
 
 .title-blue{
     color: #fff;
+    padding: 2px 3px;
     background-color: #00b0f4;
     border-radius: 3px;
-    padding: 10px;
 }
 
 .slider{
     display: flex;
-    gap: 10px;
-    overflow: scroll;
+    flex-direction: row;
+    height: 200px;
 }
 
 .slide{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 10px;
     background-image: url(images/black.png);
     color: #f7f7f7;
-    padding: 10px;
     width: 170px;
     height: 235px;
-    border-radius: 5px;
 }
 
 .slide-p{
     font-size: 15px;
 }
 
-.Day{
-    display: flex;
-    flex-direction: column;
-}
-
-#Today{
+.sar{
     color: #407ce8;
-}
-
-.Date{
     border: none;
     border-radius: 5px;
     margin-bottom: 50px;
-}  
+}
+
+
+.medee-fire{
+    background-color: #fdfaf5;
+}
+
+.onoodor{
+    display: flex;
+}
+
+#ono{
+    color: #407ce8;
+}
 
 .Brow{
     display: flex;
@@ -198,15 +199,6 @@ aside{
     display: flex;
     flex-direction: row;
     border-right: dashed;
-}
-
-.medee-fire{
-    background-color: #fdfaf5;
-}
-
-.section-c{
-    display: flex;
-    align-items: center;
 }
 
 .back{
