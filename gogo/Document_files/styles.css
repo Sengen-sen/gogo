@@ -1,0 +1,250 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    height: 100vh;
+    width: 100vw;
+}
+
+p{
+    color: grey ;
+}
+
+img{
+    border-radius: 5px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30px;   
+    width: 1100px;
+    padding: 0px 40px;
+    margin-top: 30px;
+    margin-bottom: 20px ;
+}
+
+nav{
+    margin-top: 50px;
+}
+
+article{
+    margin-top: 20px;
+    width: 1100px;
+}
+
+span{
+    font-weight: bold;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    height: 60px;
+    width: 120px;
+}
+
+.section-a{
+    background-color: #f7f7f7;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.header-a{
+    display: flex;
+    flex-direction: row;
+    gap: 30px; 
+}
+
+.header-b{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+.Sbtn{
+    border: none;
+    font-size: 20px;
+    background-color: #f7f7f7;
+}
+
+.article-a{
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to right, #f7f7f7, #fff , #f7f7f7);
+}
+
+.article-left{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+}
+
+.Gbtn{
+    background-image: linear-gradient(to right, red, orange);
+    height: 25px;
+    width: 200px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.sbtn{
+    display: flex;
+    text-align: center;
+    border: none;
+    background: #f0efef;
+    border-radius: 100px;
+    padding: 5px 10px;
+    width: 50px;
+    height: 30px;
+    gap: 5px;
+}
+
+.article-cards{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 400px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    height: 175px;
+}
+
+.section-b{
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    margin-top: 30px;
+    display: flex;
+}
+
+.title-blue{
+    color: #fff;
+    padding: 2px 3px;
+    background-color: #00b0f4;
+    border-radius: 3px;
+}
+
+.slider{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
+
+.slide{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-image: url(images/black.png);
+    color: #f7f7f7;
+    width: 170px;
+    height: 235px;
+}
+
+.slide-p{
+    font-size: 15px;
+}
+
+.sar{
+    color: #407ce8;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+
+.medee-fire{
+    background-color: #fdfaf5;
+}
+
+.onoodor{
+    display: flex;
+}
+
+#ono{
+    color: #407ce8;
+}
+
+.Brow{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    border-right: dashed;
+}
+
+.back{
+    background-image: url(images/huuhduud.png) ;
+}
+
+.grid-head{grid-area: header;}
+.grid-item1{grid-area: item;}
+.grid-item2{grid-area: main;}
+.grid-item3{grid-area: else;}
+.grid-item4{grid-area: aside;}
+
+.grid{
+    margin-left: 10px;
+    display: grid;
+    grid-template-areas:
+    'header header item main'
+    'header header else aside';
+    grid-gap: 10px;
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.gg{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: dashed;
+    color: grey;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.end{   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.icon{
+    display: flex;
+    gap: 10px;
+}
+
+
