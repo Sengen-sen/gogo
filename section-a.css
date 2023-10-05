@@ -1,0 +1,126 @@
+.section-a {
+    background-color: #f7f7f7;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-a {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.logo {
+    height: 50px;
+    width: 100px;
+}
+
+.Sbtn {
+    border: none;
+    font-size: 20px;
+    background-color: #f7f7f7;
+
+}
+
+.header-b {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.article-a {
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to right, #f7f7f7, #fff, #f7f7f7);
+}
+
+.article-left {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+}
+
+.Gbtn {
+    background-image: linear-gradient(to right, red, orange);
+    height: 25px;
+    width: 200px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    transition: 1s;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.sbtn {
+    display: flex;
+    text-align: center;
+    border: none;
+    background: #f0efef;
+    border-radius: 100px;
+    padding: 5px 10px;
+    width: 50px;
+    height: 30px;
+    gap: 5px;
+    transition: 0.5s;
+}
+
+.Conimg{
+    position: relative;
+}
+
+.size{
+    width: 600px;
+    height: 400px;
+}
+
+.Fimg{
+    opacity: 0.5s;
+    transition: .5s ease;
+}
+
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.text{
+    color: white;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+}
+
+.article-cards {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+}
+
+#switch {
+    display: flex;
+    width: 500px;
+    height: 300px;
+}

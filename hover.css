@@ -7,9 +7,8 @@
 }
 
 .Conimg:hover .Fimg{
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
-
 
 .sbtn:hover{
     background-color: white;
@@ -19,6 +18,7 @@
     transform: scale(1.1);
 }
 
-img:hover .overlay{
-    opacity: 0.5;
+.Date:hover {
+    background-color: #407ce8;
 }
+
