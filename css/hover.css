@@ -1,0 +1,28 @@
+.Gbtn:hover {
+    width: 250px;
+}
+
+.Conimg:hover .overlay{
+    opacity: 0.5;
+}
+
+.Conimg:hover .Fimg{
+    transform: scale(1.01);
+}
+
+.sbtn:hover{
+    background-color: white;
+    width: 70px;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1.1);
+}
+
+.Date:hover  {
+    background-color: #407ce8; 
+}
+
+.pp:hover{
+    color: #407ce8;
+}
+

@@ -1,0 +1,60 @@
+@media only screen and (max-width: 744px) {
+    header {
+        width: 744px;
+    }
+
+    .header-a h3, button {
+        display: none;
+    }
+
+    nav{
+        display: none;
+    }
+
+    article {
+        display: none;
+    }
+
+    .Garaa {
+        width: 744px;
+    }
+
+    article {
+        width: 744px;
+    }
+
+
+    .carousel {
+        width: 744px;
+    }
+
+    .Day {
+        width: 744px;
+    }
+
+    .Brow {
+        width: 744px;
+    }
+
+    .hh {
+        width: 744px;
+    }
+
+    .container-d {
+        width: 744px;
+    }
+
+    .container-t {
+        width: 744px;
+    }
+
+    .ttle {
+        width: 744px;
+    }
+
+    .container-v {
+        width: 744px;
+    }
+
+
+}

@@ -1,0 +1,185 @@
+.section-b {
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.title {
+    margin-top: 30px;
+    display: flex;
+}
+
+.title-blue {
+    color: #fff;
+    background-color: #00b0f4;
+    border-radius: 3px;
+    padding: 10px;
+
+}
+
+.carousel{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: 1100px;
+}
+
+.slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(/images/black.png);
+    background-position: center;
+    height: 250px;
+    width: 200px;
+    color: #f7f7f7;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.img-sl{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+.slide-p {
+    font-size: 15px;
+}
+
+.container-b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Day {
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+}
+
+#Today {
+    color: #407ce8;
+}
+
+#b{
+    background-color: #407ce8;
+}
+
+#p{
+    color: #407ce8;
+}
+
+.plant{
+    width: 30px;
+    height: 30px;
+}
+
+.TTbtn{
+    display: flex;
+    text-align: center;
+    gap: 40px;
+}
+
+.Tbtn{
+    display: flex;
+}
+
+.Date {
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    background-color: grey;
+    width: 100px;
+    height: 10px;
+    position: absolute;
+}
+
+.pp{
+    position: relative;
+    font-size: 12px;
+}
+
+.Brow {
+    display: flex;
+    width: 1100px;
+}
+
+.drow {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-right: dashed;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.rimg{
+    width: 300px;
+    height: 200px;
+    gap: 10px;
+}
+
+.Dbtn {
+    width: 700px;
+    height: 50px;
+}
+
+.medee-ontsloh {
+    margin-left: 20px;
+}
+
+#sp {
+    color: black;
+    font-size: 16px;
+}
+
+.acard {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.im {
+    width: 300px;
+    height: 200px;
+}
+
+.medee-fire {
+    margin-top: 20px;
+    padding-left: 20px;
+    width: 300px;
+    background-color: #fdfaf5;
+}
+
+.rr {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border-bottom: dashed;
+    padding-bottom: 10px;
+    margin: 20px 20px;
+}
+
+.rp {
+    color: red;
+    font-size: 52px;
+}
+
+#sd {
+    font-size: 15px;
+    color: black;
+    font-weight: 200;
+}
+
+.grey {
+    color: grey;
+}
