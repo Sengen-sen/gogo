@@ -56,5 +56,10 @@
         width: 744px;
     }
 
+    .ts{
+        width: 180px;
+        height: 200px;
+        margin-bottom: 10px;
+    }
 
 }
